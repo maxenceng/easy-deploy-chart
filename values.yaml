@@ -82,6 +82,8 @@ nodePort: 30080
 volumes: []
 volumeMounts: []
 customEnv: false
+env: []
+envSecret: []
 
 additionalPorts: []
 
