@@ -41,6 +41,7 @@ securityContext: {}
   # runAsUser: 1000
 
 ingress:
+  enabled: true
   expose: false
   hosts:
     - host: chart-example.localhost
@@ -89,6 +90,6 @@ vpn:
 
 gpuEnabled: false
 
-services:
-  clusterIP: true
-  nodePort: false
+nodePort:
+  enabled: false
+  port: 30080
