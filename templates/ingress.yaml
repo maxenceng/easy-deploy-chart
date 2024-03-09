@@ -1,4 +1,4 @@
-{{- if .Values.ingress.enabled -}}
+{{- if .Values.services.clusterIP -}}
 {{- $fullName := include "common.fullname" . -}}
 {{- $svcPort := .Values.port -}}
 apiVersion: networking.k8s.io/v1

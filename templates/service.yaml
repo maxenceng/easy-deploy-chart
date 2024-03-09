@@ -1,4 +1,5 @@
 {{- $fullName := include "common.fullname" . -}}
+{{- if .Values.services.clusterIP }}
 apiVersion: v1
 kind: Service
 metadata:
@@ -14,8 +15,9 @@ spec:
       name: http
   selector:
     {{- include "common.selectorLabels" . | nindent 4 }}
-
+{{- end }}
 ---
+{{- if .Values.services.nodePort }}
 apiVersion: v1
 kind: Service
 metadata:
@@ -30,3 +32,4 @@ spec:
       name: http
   selector:
     {{- include "common.selectorLabels" . | nindent 4 }}
+{{- end }}
