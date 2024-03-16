@@ -12,10 +12,10 @@ metadata:
     tailscale.com/funnel: "true"
   {{- end }}
 spec:
-  ingressClassName: tailscale
+  ingressClassName: {{ .Values.ingress.className | default "tailscale" }}
   tls:
     - hosts:
-        - {{ $fullName }}
+        - {{ .Values.ingress.host | default $fullName }}
   rules:
     - http:
         paths:

@@ -40,11 +40,12 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
+strategyType: RollingUpdate
+
 ingress:
+  className: tailscale
   enabled: true
   expose: false
-  hosts:
-    - host: chart-example.localhost
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
