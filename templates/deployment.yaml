@@ -9,6 +9,8 @@ spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
+  strategy:
+    type: {{ .Values.strategyType }}
   selector:
     matchLabels:
       {{- include "common.selectorLabels" . | nindent 6 }}
