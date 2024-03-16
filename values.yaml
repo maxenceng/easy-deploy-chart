@@ -43,7 +43,6 @@ securityContext: {}
 strategyType: RollingUpdate
 
 ingress:
-  className: tailscale
   enabled: true
   expose: false
 

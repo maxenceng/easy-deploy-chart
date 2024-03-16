@@ -3,7 +3,7 @@ entries:
   easy-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.427124901+01:00"
+    created: "2024-03-16T17:10:42.897339285+01:00"
     description: Easy deployment of apps with an ingress (Made for Tailscale and Cloudflare
       tunnels primarily)
     digest: 5559019d83b4ec793a3d709ad18c389e73bfa92f7222daa0481373dcd00561b0
@@ -15,7 +15,17 @@ entries:
   easy-tailscale:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.8782371+01:00"
+    created: "2024-03-16T17:10:44.155048942+01:00"
+    description: Easy deployment of apps with Tailscale
+    digest: 054e6fcf264a8844894875a8f178d9309ba9dbeb33508d22a1d7c538ee05114c
+    name: easy-tailscale
+    type: application
+    urls:
+    - easy-tailscale-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-03-16T17:10:43.344999624+01:00"
     description: Easy deployment of apps with Tailscale
     digest: 5e82b0ceb334fb91b91c57f5830f2bb745355cb4fbf4003667321125dab10ffe
     name: easy-tailscale
@@ -25,7 +35,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.676932342+01:00"
+    created: "2024-03-16T17:10:43.153936582+01:00"
     description: Easy deployment of apps with Tailscale
     digest: f1f517e64cdf3296f40111c4189882c912c68f4392e1bd3169922ca183ed1b10
     name: easy-tailscale
@@ -35,7 +45,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.575829964+01:00"
+    created: "2024-03-16T17:10:43.046551008+01:00"
     description: Easy deployment of apps with Tailscale
     digest: c770635265c340e506b9f010493e21e6d2188d458479582af7647bb649f5ef5c
     name: easy-tailscale
@@ -45,7 +55,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.519939068+01:00"
+    created: "2024-03-16T17:10:42.991051162+01:00"
     description: Easy deployment of apps with Tailscale
     digest: c840038acae338e98cf8995a86bcee8db85f76ee2588f43434f44b38f1cb94a1
     name: easy-tailscale
@@ -55,7 +65,7 @@ entries:
     version: 1.2.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.488600295+01:00"
+    created: "2024-03-16T17:10:42.958059184+01:00"
     description: Easy deployment of apps with Tailscale
     digest: 2058f33e91da1978a6de604550be546f9f053845722175e8d6a7032768501241
     name: easy-tailscale
@@ -65,7 +75,7 @@ entries:
     version: 1.2.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.466736264+01:00"
+    created: "2024-03-16T17:10:42.938731412+01:00"
     description: Easy deployment of apps with Tailscale
     digest: fa4be351ed7df3f5e6399c35047bf216d2033be909e4bcf0d10895d62f8e8743
     name: easy-tailscale
@@ -75,7 +85,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.45439235+01:00"
+    created: "2024-03-16T17:10:42.92656004+01:00"
     description: Easy deployment of apps with Tailscale
     digest: 33f16f5bacfb3f36134d7071da82708a7604ec20450adb7c5813503e88063966
     name: easy-tailscale
@@ -85,7 +95,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.446620547+01:00"
+    created: "2024-03-16T17:10:42.918807364+01:00"
     description: Easy deployment of apps with Tailscale
     digest: 2d2703509bd6dcdd4ae6e9d9447ec0ab87d0c1175a7687fff1bda86ecd5368c7
     name: easy-tailscale
@@ -95,7 +105,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.440963515+01:00"
+    created: "2024-03-16T17:10:42.912374599+01:00"
     description: Easy deployment of apps with Tailscale
     digest: 6341d5e81557e7d0def582a390a01d4a0c16549da883b779395dc72778b0cfe7
     name: easy-tailscale
@@ -105,7 +115,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.435412631+01:00"
+    created: "2024-03-16T17:10:42.906645621+01:00"
     description: Easy deployment of apps with Tailscale
     digest: 62a7be07eabca2db944d954dbffb5aa23216661fdc099edb0ffe8e064a02f747
     name: easy-tailscale
@@ -115,7 +125,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-16T15:58:51.431023321+01:00"
+    created: "2024-03-16T17:10:42.902146807+01:00"
     description: Easy deployment of apps with Tailscale
     digest: 0ebce8eeb018df3c57bdea43449737aaa7b746cb02a9fbdbaf9b2deef0ac8e36
     name: easy-tailscale
@@ -123,4 +133,4 @@ entries:
     urls:
     - easy-tailscale-1.0.0.tgz
     version: 1.0.0
-generated: "2024-03-16T15:58:51.001108405+01:00"
+generated: "2024-03-16T17:10:42.473736083+01:00"
